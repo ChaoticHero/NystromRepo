@@ -1,3 +1,4 @@
+
 namespace Chapter.State
 {
     public interface IBikeState

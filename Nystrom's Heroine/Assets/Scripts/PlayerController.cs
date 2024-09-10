@@ -4,7 +4,7 @@ namespace Chapter.State
 {
     public class PlayerController : MonoBehaviour
     {
-
+        public IBikeState currentState;
         public float maxSpeed = 15.0f;
 
         public float CurrentSpeed { get; set; }
